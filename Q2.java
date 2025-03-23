@@ -20,5 +20,6 @@ public class Q2 {
                         System.out.println("Maximum element is: " + max);
                         System.out.println("Minimum element is: " + min);
     sc.close();
+    System.out.println("Hello");
                     }
 }
