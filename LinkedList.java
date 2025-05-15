@@ -77,11 +77,11 @@ public static Node InsEnd(Node start)
       System.out.println("Enter marks "); 
       p.mark = sc.nextFloat(); 
       p.next = null; 
-if(start == null) 
+      if(start == null) 
       { 
            start = p; 
       } 
-else 
+      else 
       { 
           Node q = start; 
           while(q.next!=null) 
@@ -90,7 +90,7 @@ else
           } 
          q.next = p; 
           
-} 
+       } 
           return start; 
   } 
    
